@@ -4,6 +4,10 @@ from fastapi import FastAPI
 
 from apps.models import Item
 
+"""
+uvicorn main:app --reload
+"""
+
 app = FastAPI(
     title = 'Fast API Sample',
     description = 'Fast API description',
